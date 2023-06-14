@@ -1,0 +1,33 @@
+* {
+    color: rgb(204, 132, 37);
+    color: rgb(0, 0, 0);
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(165, 242, 252);
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+ul, ol {
+    font-size: 14px;
+}
+
+ul {
+    list-style: circle;
+}
+
+.recipe-list {
+    font-size: 18px;
+}
+
+img {
+    height: 300px;
+    width: auto;
+}
+
+a {
+    color: blue;
+    font-style: oblique;
+}
