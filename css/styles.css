@@ -1,13 +1,17 @@
 * {
-    color: rgb(204, 132, 37);
-    color: rgb(0, 0, 0);
     font-family: Helvetica, sans-serif;
-    background-color: rgb(165, 242, 252);
 }
+
 
 h1 {
     font-size: 50px;
     font-weight: bold;
+    border-width: 2px 20px 2px 0px;
+    border-style:  solid;
+    padding: 2px 20px;
+    background-color:rgb(240, 240, 240);
+    display: table;
+    margin: 30px 30px 30px 0px;
 }
 
 ul, ol {
@@ -18,16 +22,47 @@ ul {
     list-style: circle;
 }
 
-.recipe-list {
-    font-size: 18px;
-}
-
 img {
-    height: 300px;
-    width: auto;
+    display: block;
+    height: auto;
+    width: 300px;
+    margin: 0px auto;
+    border: 2px solid;
 }
 
 a {
     color: blue;
     font-style: oblique;
+}
+
+button {
+    padding: 10px;
+    border-radius: 8px;
+    background-color: white;
+    
+}
+
+button:hover {
+    background-color: rgb(197, 251, 255);
+}
+
+.recipe-list {
+    font-size: 18px;
+}
+
+.recipe-list li {
+    display: inline;
+    padding: 10px;
+}
+
+.recipe-card, .recipes-home {
+    background-color: rgb(204, 203, 203);
+    width: 600px;
+    margin: 0 auto;
+    border: 2px solid;
+    box-shadow: 4px 4px 4px 4px grey;
+}
+
+.card-info {
+    padding: 10px;
 }
