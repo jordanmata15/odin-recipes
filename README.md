@@ -1,2 +1,2 @@
 # odin-recipes
-A first attempt into learning html.
+A first attempt into learning web development.
